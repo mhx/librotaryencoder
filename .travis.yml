@@ -10,6 +10,13 @@ addons:
       - cmake
       - make
 
+git:
+  depth: false
+
+branches:
+  only:
+  - main
+
 compiler:
   - gcc
 
